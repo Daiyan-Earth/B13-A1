@@ -48,11 +48,6 @@ nav .btn-1 button{
 
 }
 
-#banner{
-    /* background: url("assets/hero-bg.png"); */
-}
-
-
 #banner .banner-container{
     padding: 115.5px 120px 179.5px 120px;
     align-items: center;
@@ -114,4 +109,116 @@ nav .btn-1 button{
     background-color:#FFFFFF;
     border: none;
     border-radius: 4px;
+}
+
+#page2 .page2-container .page2-content h2{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    text-align: center;
+    margin-top: 40px;
+}
+#page2 .page2-container .page2-content p{
+    color: #627382;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 16px;
+    text-align: center;
+    margin-bottom: 44px;
+}
+
+/* .card{
+    
+    
+} */
+.card .card-info{
+    max-width: 322px;
+    max-height: 300px;
+    box-shadow: 0 0 6px #00000018;
+    margin-bottom: 120px;
+}
+
+.card img{
+    background-color: #F95555;
+    border-radius: 100%;
+    padding: 8px;
+    margin: 69px 131px 16px 131px;
+    
+}
+.card h4{
+    color: #001931;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 16px 24px;
+    text-align: center;
+} 
+.card p{
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0 24px 69px 24px;
+    text-align: center;
+    color: #627382;
+}
+
+#page2 .page2-container .card{
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+    align-items: center;
+    margin: 0 120px;
+
+}
+
+
+#page3 .page3-container{
+    margin: 0 120px 120px 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: ;
+}
+
+.page3-info h4{
+    color: #469165;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 16px;
+}
+.page3-info h2{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    max-width: 700px;
+    text-align: left;
+    margin-bottom: 16px;
+}
+.page3-info p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 40px;
+    max-width: 700px;
+}
+
+.page3-content .page3-bullet .bullet{
+    display: flex;
+    margin-bottom: 5px;
+
+}
+.page3-container .page3-image{
+    max-width: 600px;
+    box-shadow: 2px 2px 6px #00000031;
+}
+
+#page4 .page4-container{
+    padding: 2px 120px 120px 120px;
+}
+
+.page4-info h2{
+    color: #001931;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    text-align: center;
 }
