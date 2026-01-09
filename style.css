@@ -1,3 +1,51 @@
-h1{
-    color: gold;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    padding-top:16px;
+}
+nav{
+    width: 71%;
+    max-width: 1140px;
+    
+    margin: 0 auto;
+    border:1px solid goldenrod;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .nav-logo{
+    max-width: 139px;
+    
+}
+nav .nav-list{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    gap:32px;
+    align-items: center;
+
+}
+nav .nav-list a{
+    font-size: 16px;
+    font-weight: normal;
+    text-decoration: none;
+    color: #000000;
+}
+nav .btn-1 button{
+    max-width: 164px;
+    padding: 12.5px 16px;
+
+    color: #FFFFFF;
+    font-size: 16px;
+    font-size: 600;
+    cursor: pointer;
+    
+    background-color: #469165;
+    border: none;
+    border-radius: 4px;
+    
+
 }
