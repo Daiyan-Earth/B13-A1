@@ -3,6 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
 header{
     padding-top:16px;
 }
@@ -52,7 +58,6 @@ nav .btn-1 button{
     padding: 115.5px 120px 179.5px 120px;
     align-items: center;
     text-align: center;
-    /* background-color: peru; */
     background: url("assets/hero-bg.png");
 }
 
@@ -64,13 +69,14 @@ nav .btn-1 button{
  }
  .banner-container .banner-content .btn-2{
     padding: 8px 12px;
-    
+    cursor: pointer;
     background-color: #FFFFFF;
     border: none;
     border-radius: 1000px;
-    cursor: pointer;
+    
     margin-bottom: 16px;
  }
+
 .banner-container .banner-content h1{
     
     color:#fffffff4;
@@ -92,7 +98,7 @@ nav .btn-1 button{
 }
 .banner-button .btn-4 a{
     text-decoration: none;
-    color: #469165;
+    color: white
 }
 
 .banner-button .btn-3 {
@@ -105,10 +111,11 @@ nav .btn-1 button{
 }
 .banner-button .btn-4 {
     padding: 16.5px 16px;
-    color: #469165;
-    background-color:#FFFFFF;
-    border: none;
+    color: white;
     border-radius: 4px;
+    background-color: transparent;
+    border: 1px solid white;
+    cursor: pointer;
 }
 
 #page2 .page2-container .page2-content h2{
@@ -127,10 +134,6 @@ nav .btn-1 button{
     margin-bottom: 44px;
 }
 
-/* .card{
-    
-    
-} */
 .card .card-info{
     max-width: 322px;
     max-height: 300px;
@@ -213,6 +216,9 @@ nav .btn-1 button{
 
 #page4 .page4-container{
     padding: 2px 120px 120px 120px;
+    align-items: center;
+    text-align: center;
+    
 }
 
 .page4-info h2{
@@ -220,5 +226,71 @@ nav .btn-1 button{
     font-size: 40px;
     font-weight: bold;
     margin-bottom: 16px;
+    /* background-color: #F7F6F2; */
+}
+.page4-info p{
+    color: #627382;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 24px;
+    /* background-color: #F7F6F2; */
+}
+.page4-button .btn-5 a{
+    font-size: 16px;
+    
+    color: #FFFFFF;
+    text-decoration: none;
+   
+}
+.page4-button .btn-5{
+    background-color: #469165;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+    max-width: 194px;
+    padding: 16.5px;
+    margin-bottom: 16px;
+}
+.page4-button button{
+    box-shadow: 0 10px 20px #00000033;
+}
+.page4-button p{
+    color: #627382;
+    font-size: 16px;
+    line-height: 20px;
+    
+}
+#page4 .page4-container .background{
+    background-color: #F7F6F2;
+    padding: 80px 40px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 6px rgba(128, 128, 128, 0.402);
+}
+
+#footer{
+    background-color: #001931;
+}
+#footer .footer-container .footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 120px 120px 80px 120px;
+    
+}
+.footer-content h5{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color:#FAFAFA;
+    
+}
+.footer-content .logo-footer{
+    max-width: 140px;
+}
+.footer-end p{
+    color:#FAFAFA;
     text-align: center;
+    padding: 30px 120px;
+    
 }

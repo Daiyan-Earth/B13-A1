@@ -4,9 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment 1</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
+<link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="inter">
     <header>
         <nav>
             <div class="nav-logo">
@@ -25,14 +29,14 @@
         <section id="banner">
             <div class="banner-container">
                 <div class="banner-content">
-                    <button class="btn-2"><a href="">Early Access Now Open</a></button>
+                    <button style="cursor: pointer;"><a href=""><i class="fa-solid fa-tower-broadcast"></i> Early Access Now Open</a></button>
                     <h1>Structured Thinking,<br><span style="color:#30B868;">Not Just Note-Taking.</span></h1>
                     <p>A private space to store notes, links, and learning summaries — designed to <br>
                         help you think clearly, connect ideas, and turn learning into long-term knowledge.</p>
                 </div>
                 <div class="banner-button">
-                    <button class="btn-3"><a href="">Start Building Your Vault</a></button>
-                    <button class="btn-4"><a href="">See How It Works</a></button>
+                    <button class="btn-3"><a href="">Start Building Your Vault <i class="fa-solid fa-arrow-right"></i></a></button>
+                    <button class="btn-4"><a href=""><i class="fa-solid fa-play"></i> See How It Works</a></button>
                 </div>
             </div>
         </section>
@@ -113,16 +117,46 @@
 
     <section id="page4">
         <div class="page4-container">
-            <div class="page4-info">
+            <div class="background">
+                <div class="page4-info">
                 <h2>Ready to think more clearly?</h2>
-                <p>Join thousands of learners who are building their personal knowledge vaults. Start free, no credit card required.</p>
+                <p>Join thousands of learners who are building their personal knowledge vaults.<br>Start free, no credit card required.</p>
             </div>
-            <div>
-                <button class="btn-5"><a href="">Get Early Access</a></button>
+            <div class="page4-button">
+                <button class="btn-5"><a href="">Get Early Access <i class="fa-solid fa-arrow-right"></i></a></button>
                 <p>Free during early access &bullet; No credit card needed</p>
+            </div>
             </div>
         </div>
     </section>
+
+    <footer id="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="logo-footer">
+                    <img src="assets/logo-footer.png" alt="">
+                </div>
+                <div>
+                    <h5>Social Links</h5>
+                    <div class="foot-icon" style="display: flex; gap: 16px;">
+                        <div>
+                        <button><a href=""><img src="assets/footer icon/twitter.png" alt="" style="width: 20px; background-color: white;"></a></button>
+                    </div>
+                    <div>
+                        <button><a href=""><img src="assets/footer icon/linkdin.png" alt="" style="width: 20px; background-color: white;"></a></button>
+                    </div>
+                    <div>
+                        <button><a href=""><img src="assets/footer icon/facebook.png" alt="" style="width: 20px; background-color: white;"></a></button>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-end">
+                <hr>
+                <p>&copy; 2026 Personal Knowledge Vault. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
 
 
 </body>
